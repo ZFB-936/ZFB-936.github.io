@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no"
+    />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+    <meta name="format-detection" content="email=no" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="format-detection" content="telephone=no" />
+    <meta name="renderer" content="webkit">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="apple-mobile-web-app-title" content="Amaze UI" />
+    <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
+    <meta http-equiv="Pragma" content="no-cache" />
+    <meta http-equiv="Expires" content="0" />
+    <title>[个人主页]   周方波</title>
+    <link rel="shortcut icon" href="assets/images/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="assets/css/typo.css">
+    <link rel="stylesheet" href="assets/css/font-awesome.min.css">
+    <link rel="stylesheet" href="assets/css/index.css">
+    <script>
+        function load() {
+            document.getElementsByClassName('avatar')[0].style.display = 'block';
+            document.getElementsByClassName('load')[0].style.display = 'none';
+        }
+    </script>
+</head>
+
+<body>
+
+    <header class="header"></header>
+
+    <article class="container">
+        <section class="side" id="side">
+            <br>
+            <br>
+            <style>
+                @media (min-width: 	750px){
+                    .switch{position:relative;display:inline-block!important;width:60px;height:34px;}
+                    .switch input{display:none;}
+                    .slider{position:absolute;cursor:pointer;top:0;left:0;right:0;bottom:0;background-color:#ccc;-webkit-transition:.4s;transition:.4s;}
+                    .slider:before{position:absolute;content:"";height:26px;width:26px;left:4px;bottom:4px;background-color:white;-webkit-transition:.4s;transition:.4s;}
+                    input:checked + .slider{background-color:#1abc9c;}
+                    input:focus + .slider{box-shadow:0 0 1px #1abc9c;}
+                    input:checked + .slider:before{-webkit-transform:translateX(26px);-ms-transform:translateX(26px);transform:translateX(26px);}.slider.round{border-radius:34px;}
+                    .slider.round:before{border-radius:50%;}
+                }
+            </style>
+
+            <!-- 个人肖像 -->
+            <section class="me">
+                <section class="portrait">
+                    <div class="load">
+                        <span></span>
+                        
+                    </div>
+                    <!-- 头像照片 -->
+                    <img class="avatar" src="assets/images/fangbozhou.jpg" onload="load()">
+                </section>
+                <font size="5" color="black">周方波</font>
+                <h1 class="info-job">上海，    中国</h1>
+                <font size="5" color="black">&nbsp
+                        <li ><a href="index.html">个人主页</a></li>
+                        <li><a href="resume.html">我的简历</a></li>
+                        <li><a href="about.html">生活动态</a></li>
+                        <li><a href="blog.html">技术博客</a></li>
+                </font>
+            </section>
+
+            <!-- 基本信息 -->
+            <section class="profile info-unit">
+                <h2>
+                    <i class="fa fa-user" aria-hidden="true"></i>基本信息</h2>
+                <hr/>
+                <ul>
+                    <li>
+                        <label>出生年月</label>
+                        <span>1997.08</span>
+                    </li>
+                    <li>
+                        <label>籍贯</label>
+                        <span>安徽省阜阳市</span>
+                    </li>
+                    <li>
+                        <label>民族</label>
+                        <span>汉</span>
+                    </li>
+                </ul>
+            </section>
+
+            <!-- 联系方式 -->
+            <section class="contact info-unit">
+                <h2>
+                    <i class="fa fa-phone" aria-hidden="true"></i>联系方式</h2>
+                <hr/>
+                <ul>
+                    <li>
+                        <label>手机</label>
+                        <a href="tel:18855055936" target="_blank">188-5505-5936</a>
+                    </li>
+                    <li>
+                        <label>邮箱</label>
+                        <a href="mailto:18855055936@163.com" target="_blank">18855055936@163.com</a>
+                    </li>
+                    <li>
+                        <label>个人主页</label>
+                        <a href="https://zfb-936.github.io" target="_blank">zfb-936.github.io</a>
+                    </li>
+                </ul>
+            </section>
+
+            <!-- 技能点 -->
+            <section class="skill info-unit">
+            </section>
+
+            <section class="qrcode info-unit">
+                <h2><i class="fa fa-qrcode" aria-hidden="true"></i>个人微信</h2>
+                <hr/>
+                <img src="assets/images/weixin.jpg" style="width: 100%;" alt="">
+            </section>
+
+        </section>
+
+        <section class="main">
+            <!-- 教育经历 -->
+            <section class="edu info-unit">
+                <h2>
+                    <i class="fa fa-graduation-cap" aria-hidden="true"></i>教育经历</h2>
+                <hr/>
+                <ul>
+                    <li>
+                        <h3>
+                            <span>上海应用技术大学 - 安全工程（硕士）</span>
+                            <time>2019.09 - 至今</time>
+                        </h3>
+                    </li>
+                    <li>
+                        <h3>
+                            <span>滁州学院 - 自动化（本科）</span>
+                            <time>2015.09 - 2019.06</time>
+                        </h3>
+                    </li>
+                </ul>
+            </section>
+
+            <!-- 工作经历 -->
+            <section class="work info-unit">
+                <h2>
+                    <i class="fa fa-shopping-bag" aria-hidden="true"></i>所获荣誉与证书</h2>
+                <hr/>
+                <ul>
+                    <li>
+                        <h3>
+                            <span>“互联网+”创新创业大赛</span>，上海市铜奖
+                            <time>2020.9</time>
+                        </h3>
+                    </li>
+                    <li>
+                        <h3>
+                            <span>滁州学院优秀毕业</span>
+                            <time>2019.5</time>
+                        </h3>
+                    </li>
+                    <li>
+                        <h3>
+                            <span>安徽省单片机及嵌入式应用技能大赛</span>，省二等奖
+                            <time>2018.5</time>
+                        </h3>
+                    </li>
+                    <li>
+                        <h3>
+                            <span>国家计算机四级</span>，嵌入式
+                            <time>2018.4</time>
+                        </h3>
+                    </li>
+                    <li>
+                        <h3>
+                            <span>国家励志奖学金</span>，班级综合排名第二
+                            <time>2017.9</time>
+                        </h3>
+                    </li>
+                    <li>
+                        <h3>
+                            <span>安徽省大学生电子设计大赛</span>，省二等奖
+                            <time>2017.8</time>
+                        </h3>
+                    </li>
+                    <li>
+                        <h3>
+                            <span>飞思卡尔智能车竞赛</span>，省三等奖
+                            <time>2017.7</time>
+                        </h3>
+                    </li>
+                </ul>
+            </section>
+
+            <!-- 机器人导航 -->
+            <section class="project info-unit">
+                <h2>
+                    <i class="fa fa-tasks" aria-hidden="true"></i>机器人导航</h2>
+<!--                    以下是在清华大学智能技术与系统国家重点实验室实习期间的工作-->
+                <hr/>
+                <ul>
+                     <li>
+                        <h3>
+                            <span>[项目6] 视觉语义导航</span>
+                            <span class="link">
+                                <a href="assets/video/512.mp4" target="_blank">Demo</a>
+                            </span>
+                            <time>2021.4-至今</time>
+                        </h3>
+                        <ul class="info-content">
+                            <li> [内容] 结合导航地图、语义地图和语义关系图的目标物体的搜索，并在动态环境实现语义关系图的持续增量更新，以实现对场景的记忆。</li>
+                            <li>[专利]
+                                刘华平;<b>周方波</b>;袁小虎;赵怀林;张新钰. 一种基于语义地图的目标搜索方法[P]. 北京市：CN113505646A,2021-10-115.
+                            </li>
+                            <li>
+                                [论文] 周方波, et al."基于场景图谱的室内移动机器人目标搜索." 智能系统学报 (外审中)
+                            </li>
+                            <li>
+                                [论文] ICRA2022 论文已投
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <h3>
+                            <span>[项目5] 基于MCTS的场景图谱生成</span>
+<!--                            <span class="link">-->
+<!--                                <a href="#" target="_blank">Demo</a>-->
+<!--                            </span>-->
+                            <time>2020.3-2021.4</time>
+                        </h3>
+                        <ul class="info-content">
+                            <li> [内容] 使用MCTS找到一条能够发现较多物体的路径，并进行三维场景重建，最后生成场景图谱。</li>
+                            <li> [论文]
+                                <b>Fangbo Zhou</b>, et al. "MCTS-based Robotic Exploration for Scene Graph Generation" International Conference on Cognitive Systems and Signal Processing. Springer, Singapore, 2021.
+                        </ul>
+                    </li>
+                    <li>
+                        <h3>
+                            <span>[项目4] 视觉语言导航</span>
+                            <span class="link">
+                                <a href="assets/video/VLN1.mp4" target="_blank">Demo</a>
+                            </span>
+                            <time>2020.01-2020.09</time>
+                        </h3>
+                        <ul class="info-content">
+                            <li> [内容] 智能体理解给出自然语言导航指令，并结合所观察到的局部视觉信息，到达指令所描述的目的地。</li>
+                            <li>[专利]
+                                刘华平;<b>周方波</b>;袁小虎;赵怀林. 一种基于雷达与视觉多模态融合的具身语言导航方法[P]. 北京市：CN113156419A,2021-07-23.
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <h3>
+                            <span>[项目3] 机器人路径规划</span>
+<!--                            <span class="link">-->
+<!--                                <a href="#" target="_blank">Demo</a>-->
+<!--                            </span>-->
+                            <time>2020.01-2020.09</time>
+                        </h3>
+                        <ul class="info-content">
+                            <li> [内容] 通过机器人的多传感器采集到的信息, 构建地图，并用强化学习算法进行路径规划。</li>
+                            <li>[专利]
+                                聂震,赵怀林,<b>周方波</b>,陆升阳,李若楠.服务机器人的导航系统及方法:上海市,CN113093749A[P].2021-07-09
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+            </section>
+
+
+            <!-- 计算机视觉 -->
+            <section class="project info-unit">
+                <h2>
+                    <i class="fa fa-tasks" aria-hidden="true"></i>计算机视觉</h2>
+                <hr/>
+                <ul>
+                    <li>
+                        <h3>
+                            <span>[项目2] 安全帽检测</span>
+<!--                            <span class="link">-->
+<!--                                <a href="#" target="_blank">Demo</a>-->
+<!--                            </span>-->
+                            <time>2020.08- 2020.10</time>
+                        </h3>
+                        <ul class="info-content">
+                            <li> [内容] 数据集标注及标签转换，使用YOLOv5完成训练与测试，并进行了论文发表。</li>
+                            <li> [论文]
+                                <b>F. Zhou</b>, H. Zhao and Z. Nie, "Safety Helmet Detection Based on YOLOv5," 2021 IEEE International Conference on Power Electronics, Computer Applications (ICPECA), 2021, pp. 6-11,（Cited by 5）
+                        </ul>
+                    </li>
+
+                    <li>
+                        <h3>
+                            <span>[项目1] 人群计数</span>
+<!--                            <span class="link">-->
+<!--                                <a href="#" target="_blank">Demo</a>-->
+<!--                            </span>-->
+                            <time>2020.01-2020.09</time>
+                        </h3>
+                        <ul class="info-content">
+
+                            <li> [内容] 对于一张图像或者视频帧，使用卷积神经网络回归具有人群分布特征的密度图，通够对密度图求和可以得到图像中的人数。结合OpenCV，可实现对人群流量的监控。</li>
+                            <li> [论文]
+                                <b>F. Zhou</b>.et al. COMAL: Compositional Multi-scale Feature Enhanced Learning for Crowd Counting 2021 Multimed Tools Appl (2021). （二审中）
+                                <br/>
+                                [论文] Wang L, <b>Zhou F</b>, Zhao H. Crowd Density Estimation based on Global Reasoning [J]. Journal of Robotics, Networking and Artificial Life, 2020.
+                                <br/>
+                                [论文] Zhang, Yani, Huailin Zhao, <b>Fangbo Zhou</b>, Qing Zhang, Yanjiao Shi, Lanjun Liang "MSCANet: Adaptive Multi-scale Context Aggregation Network for Congested Crowd Counting." MMM 2021.（CCF推荐会议）
+                            </li>
+                            <li>[专利]
+                                <b>周方波</b>,赵怀林,聂震. 基于多尺度上下文增强网络的人群计数方法[P]. 上海市：CN112132023A,2020-12-25.
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+            </section>
+
+            <!-- 自我评价 -->
+            <section class="work info-unit">
+                <h2>
+                    <i class="fa fa-pencil" aria-hidden="true"></i>个人爱好</h2>
+                <hr/>
+                <p>[长跑]
+                    <span class="mark-txt">南京六合竹镇国际半程马拉松等半程马拉松完赛，多次校运动会长跑项目获奖</span></p>
+            </section>
+        </section>
+    </article>
+
+    <footer class="footer">
+        <p>© 2021 周方波.建立最后更新时间为
+            <time>2021年07月21日</time>.</p>
+    </footer>
+
+    <!-- 侧栏 -->
+    <aside>
+<!--        <ul>-->
+<!--            <li>-->
+<!--                <a href="https://gitee.com/itsay/resume" target="_blank">源代码</a>-->
+<!--            </li>-->
+<!--            <li>-->
+<!--                <a href="http://if2er.com/" target="_blank">Blog</a>-->
+<!--            </li>-->
+<!--        </ul>-->
+    </aside>
+
+    <script src="./assets/js/index.js"></script>
+</body>
+
+</html>
